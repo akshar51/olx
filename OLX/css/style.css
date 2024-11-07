@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #1C1C1C;
+     background-color: #1C1C1C; 
 }
 
 nav{
@@ -16,11 +16,21 @@ nav{
 .navbar-nav :nth-child(3) span{
     color: #2AD386;
 }
-.navbar-nav :nth-child(3) input{
-    border: 1px solid #2AD386;
-    width: 600px;
-    outline: none;
-    color: white;
+
+.input-group input{
+    border: 1px solid #2AD386 !important;
+    background-color: transparent !important;
+    outline: none !important;
+    color: white !important;
+}
+
+.input-group input::placeholder{
+    color: #515151;
+}
+
+.input-group span{
+    background-color: transparent;
+    border: 1px solid #2AD386 !important;
 }
 
 .navbar-nav li:first-child{
@@ -42,6 +52,3 @@ nav{
     background-color: #515151;
 }
 
-.navbar-nav button{
-    /* background-color: #2AD386; */
-}
